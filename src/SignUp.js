@@ -14,9 +14,9 @@ const Signup = ({username,email,password,setUsername,setEmail,setPassword}) => {
         <>
         <form action="">
                 <div className="card">
-                    <h3 style={{color:"#fff"}}>Let's have a chat!</h3>
+                    <h3 style={{color:"#fff"}}>Sign In First!</h3>
                 <div className="button">
-                    <button type="submit" onClick={signInWithGoogle}>Sign In With Google</button>
+                    <button type="submit" onClick={signInWithGoogle}>Google account</button>
                 </div>
                 </div>
         </form>
